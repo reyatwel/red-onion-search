@@ -13,7 +13,7 @@ export default function SearchHeader() {
           <img 
             src="/logo.png" 
             alt="logo" 
-            className="h-fit w-40"
+            className="h-fit w-20 flex flex-col md:w-40"
           />
         </picture>        
         </Link>
@@ -25,7 +25,7 @@ export default function SearchHeader() {
           <RiSettings3Line className="header-icon" />
           <TbGridDots className="header-icon" />
         </div>
-        <button className="btn2 ml-2">
+        <button className="btn2 ml-2 hidden md:inline-flex">
           Sign in
         </button>
       </div>
